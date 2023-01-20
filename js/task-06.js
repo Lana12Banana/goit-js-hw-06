@@ -1,4 +1,4 @@
-const inputEl = document.getElementsById("validation-input")
+const inputEl = document.getElementById("validation-input")
 const enumerateEl = inputEl.getAttribute("data-length")
 
 inputEl.addEventListener("blur", function () {
